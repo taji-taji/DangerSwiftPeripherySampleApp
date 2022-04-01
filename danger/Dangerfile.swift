@@ -1,4 +1,4 @@
 import Danger
+import DangerSwiftPeriphery
 
-let danger = Danger()
-
+DangerPeriphery.scan()
