@@ -1,48 +1,39 @@
 {
   "pins" : [
     {
-      "identity" : "files",
+      "identity" : "dangerswiftperiphery",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/JohnSundell/Files.git",
+      "location" : "https://github.com/taji-taji/DangerSwiftPeriphery",
       "state" : {
-        "revision" : "a84615f4558151fab52ac38df697ce2442991f93",
-        "version" : "2.3.0"
+        "branch" : "main",
+        "revision" : "525bbd0550cc7e3f4fa3533a2ad38a0308219594"
       }
     },
     {
-      "identity" : "marathon",
+      "identity" : "logger",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/JohnSundell/Marathon.git",
+      "location" : "https://github.com/shibapm/Logger",
       "state" : {
-        "revision" : "35b672e05ac411fb104e462fbfd6541f995abc17",
-        "version" : "3.3.0"
+        "revision" : "53c3ecca5abe8cf46697e33901ee774236d94cce",
+        "version" : "0.2.3"
       }
     },
     {
-      "identity" : "releases",
+      "identity" : "octokit.swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/JohnSundell/Releases.git",
+      "location" : "https://github.com/nerdishbynature/octokit.swift",
       "state" : {
-        "revision" : "ea62f33a429185b0ed21344c2355862c5bc4fcce",
-        "version" : "4.0.0"
+        "revision" : "9521cdff919053868ab13cd08a228f7bc1bde2a9",
+        "version" : "0.11.0"
       }
     },
     {
-      "identity" : "require",
+      "identity" : "requestkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/JohnSundell/Require.git",
+      "location" : "https://github.com/nerdishbynature/RequestKit.git",
       "state" : {
-        "revision" : "7cfbd0d8a2dede0e01f6f0d8ab2c7acef1df112e",
-        "version" : "2.0.1"
-      }
-    },
-    {
-      "identity" : "shellout",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/JohnSundell/ShellOut.git",
-      "state" : {
-        "revision" : "e1577acf2b6e90086d01a6d5e2b8efdaae033568",
-        "version" : "2.3.0"
+        "revision" : "fd5e9e99aada7432170366c9e95967011ce13bad",
+        "version" : "2.4.0"
       }
     },
     {
@@ -50,8 +41,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/danger/swift.git",
       "state" : {
-        "revision" : "0056d38e4f9899ba1e9b5a60735584580834bc50",
-        "version" : "4.0.1"
+        "revision" : "c1bba33f705ca0fd4a0022997c8b696210083755",
+        "version" : "3.12.3"
+      }
+    },
+    {
+      "identity" : "version",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mxcl/Version",
+      "state" : {
+        "revision" : "200046c93f6d5d78a6d72bfd9c0b27a95e9c0a2b",
+        "version" : "1.2.0"
       }
     }
   ],

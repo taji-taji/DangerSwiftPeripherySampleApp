@@ -16,7 +16,7 @@
 		0E34306627F68E6B00286032 /* DangerSwiftPeripherySampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34306527F68E6B00286032 /* DangerSwiftPeripherySampleAppTests.swift */; };
 		0E34307027F68E6B00286032 /* DangerSwiftPeripherySampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34306F27F68E6B00286032 /* DangerSwiftPeripherySampleAppUITests.swift */; };
 		0E34307227F68E6B00286032 /* DangerSwiftPeripherySampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E34307127F68E6B00286032 /* DangerSwiftPeripherySampleAppUITestsLaunchTests.swift */; };
-		0E34308227F694F500286032 /* danger-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 0E34308127F694F500286032 /* danger-swift */; };
+		0E34308627F7089F00286032 /* DangerSwiftPeriphery in Frameworks */ = {isa = PBXBuildFile; productRef = 0E34308527F7089F00286032 /* DangerSwiftPeriphery */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E34308227F694F500286032 /* danger-swift in Frameworks */,
+				0E34308627F7089F00286032 /* DangerSwiftPeriphery in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			);
 			name = DangerSwiftPeripherySampleApp;
 			packageProductDependencies = (
-				0E34308127F694F500286032 /* danger-swift */,
+				0E34308527F7089F00286032 /* DangerSwiftPeriphery */,
 			);
 			productName = DangerSwiftPeripherySampleApp;
 			productReference = 0E34304B27F68E6700286032 /* DangerSwiftPeripherySampleApp.app */;
@@ -221,8 +221,7 @@
 			);
 			mainGroup = 0E34304227F68E6700286032;
 			packageReferences = (
-				0E34308027F694F500286032 /* XCRemoteSwiftPackageReference "swift" */,
-				0E34308327F6FFEB00286032 /* XCRemoteSwiftPackageReference "DangerSwiftPeriphery" */,
+				0E34308427F7089F00286032 /* XCRemoteSwiftPackageReference "DangerSwiftPeriphery" */,
 			);
 			productRefGroup = 0E34304C27F68E6700286032 /* Products */;
 			projectDirPath = "";
@@ -613,15 +612,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0E34308027F694F500286032 /* XCRemoteSwiftPackageReference "swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danger/swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		0E34308327F6FFEB00286032 /* XCRemoteSwiftPackageReference "DangerSwiftPeriphery" */ = {
+		0E34308427F7089F00286032 /* XCRemoteSwiftPackageReference "DangerSwiftPeriphery" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/taji-taji/DangerSwiftPeriphery";
 			requirement = {
@@ -632,10 +623,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0E34308127F694F500286032 /* danger-swift */ = {
+		0E34308527F7089F00286032 /* DangerSwiftPeriphery */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0E34308027F694F500286032 /* XCRemoteSwiftPackageReference "swift" */;
-			productName = "danger-swift";
+			package = 0E34308427F7089F00286032 /* XCRemoteSwiftPackageReference "DangerSwiftPeriphery" */;
+			productName = DangerSwiftPeriphery;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
