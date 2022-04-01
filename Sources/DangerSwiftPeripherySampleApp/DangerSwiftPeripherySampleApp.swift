@@ -1,0 +1,7 @@
+public struct DangerSwiftPeripherySampleApp {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
+
