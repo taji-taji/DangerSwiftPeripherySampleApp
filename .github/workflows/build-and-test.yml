@@ -5,6 +5,8 @@ on: pull_request
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Install Swift on Linux
         uses: sersoft-gmbh/swifty-linux-action@v1.3.0
@@ -20,6 +22,4 @@ jobs:
         uses: danger/danger-js@9.1.6
       - name: Danger
         run: swift run danger-swift ci
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
