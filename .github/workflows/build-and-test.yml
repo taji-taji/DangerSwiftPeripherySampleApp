@@ -1,0 +1,19 @@
+name: "Build and test"
+
+on: pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Swift on Linux
+        uses: sersoft-gmbh/swifty-linux-action@v1.3.0
+        with:
+          release-version: '5.5'
+      - name: Build
+        run: swift build
+      - name: Test
+        run: swift test
+      - name: Danger
+        run: danger-swift ci
+
