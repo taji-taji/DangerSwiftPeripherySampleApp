@@ -16,6 +16,8 @@ jobs:
         run: swift build
       - name: Test
         run: swift test
+      - name: Danger JS
+        uses: danger/danger-js@9.1.6
       - name: Danger
         run: swift run danger-swift ci
 
