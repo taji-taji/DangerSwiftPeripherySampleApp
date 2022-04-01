@@ -222,6 +222,7 @@
 			mainGroup = 0E34304227F68E6700286032;
 			packageReferences = (
 				0E34308027F694F500286032 /* XCRemoteSwiftPackageReference "swift" */,
+				0E34308327F6FFEB00286032 /* XCRemoteSwiftPackageReference "DangerSwiftPeriphery" */,
 			);
 			productRefGroup = 0E34304C27F68E6700286032 /* Products */;
 			projectDirPath = "";
@@ -618,6 +619,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 4.0.0;
+			};
+		};
+		0E34308327F6FFEB00286032 /* XCRemoteSwiftPackageReference "DangerSwiftPeriphery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/taji-taji/DangerSwiftPeriphery";
+			requirement = {
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
