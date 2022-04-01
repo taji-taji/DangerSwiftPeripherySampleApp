@@ -10,6 +10,8 @@ jobs:
         uses: sersoft-gmbh/swifty-linux-action@v1.3.0
         with:
           release-version: '5.5'
+      - name: Checkout
+        uses: actions/checkout@v1
       - name: Build
         run: swift build
       - name: Test
