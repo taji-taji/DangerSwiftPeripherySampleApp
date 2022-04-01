@@ -20,4 +20,6 @@ jobs:
         uses: danger/danger-js@9.1.6
       - name: Danger
         run: swift run danger-swift ci
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
