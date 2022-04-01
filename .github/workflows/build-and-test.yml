@@ -17,5 +17,5 @@ jobs:
       - name: Test
         run: swift test
       - name: Danger
-        run: danger-swift ci
+        run: swift run danger-swift ci
 
