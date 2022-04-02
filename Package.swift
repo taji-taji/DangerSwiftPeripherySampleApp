@@ -21,6 +21,12 @@ let package = Package(
                 .product(name: "Danger", package: "danger-swift"),
                 .product(name: "DangerSwiftPeriphery", package: "DangerSwiftPeriphery")
             ]),
+        .target(
+            name: "Danger-Swift",
+            dependencies: [
+                .product(name: "Danger", package: "danger-swift"),
+                .product(name: "DangerSwiftPeriphery", package: "DangerSwiftPeriphery")
+            ]),
         .testTarget(
             name: "DangerSwiftPeripherySampleAppTests",
             dependencies: ["DangerSwiftPeripherySampleApp"]),
