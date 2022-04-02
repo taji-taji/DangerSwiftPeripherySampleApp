@@ -15,12 +15,7 @@ let package = Package(
         .package(name: "DangerSwiftPeriphery", url: "https://github.com/taji-taji/DangerSwiftPeriphery.git", branch: "main"),
     ],
     targets: [
-        .target(
-            name: "DangerSwiftPeripherySampleApp",
-            dependencies: [
-                .product(name: "Danger", package: "danger-swift"),
-                .product(name: "DangerSwiftPeriphery", package: "DangerSwiftPeriphery")
-            ]),
+        .target(name: "DangerSwiftPeripherySampleApp"),
         .target(
             name: "Danger-Swift",
             dependencies: [
