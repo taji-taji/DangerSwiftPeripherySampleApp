@@ -6,9 +6,8 @@ import PackageDescription
 let package = Package(
     name: "DangerSwiftPeripherySampleApp",
     products: [
-        .library(
-            name: "DangerSwiftPeripherySampleApp",
-            targets: ["DangerSwiftPeripherySampleApp"]),
+        .library(name: "DangerSwiftPeripherySampleApp", targets: ["DangerSwiftPeripherySampleApp"]),
+        .library(name: "DangerDeps", type: .dynamic, targets: ["DangerDependencies"]), // dev
     ],
     dependencies: [
         // Danger
