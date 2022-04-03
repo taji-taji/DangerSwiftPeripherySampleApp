@@ -11,9 +11,18 @@ let package = Package(
             targets: ["DangerSwiftPeripherySampleApp"]),
     ],
     dependencies: [
+        // Danger
+        .package(name: "danger-swift", url: "https://github.com/danger/swift.git", from: "3.0.0"), // dev
+        // Danger Plugins
+        .package(name: "DangerSwiftPeriphery", url: "https://github.com/taji-taji/DangerSwiftPeriphery.git", branch: "main"), // dev
     ],
     targets: [
         .target(name: "DangerSwiftPeripherySampleApp"),
+        .target(name: "DangerDependencies",
+                dependencies: [
+                    .product(name: "Danger", package: "danger-swift"),
+                    "DangerSwiftPeriphery",
+                ]),
         .testTarget(
             name: "DangerSwiftPeripherySampleAppTests",
             dependencies: ["DangerSwiftPeripherySampleApp"]),
