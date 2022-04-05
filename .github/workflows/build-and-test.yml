@@ -4,14 +4,10 @@ on: pull_request
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     env:
       GITHUB_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
     steps:
-      - name: Install Swift on Linux
-        uses: sersoft-gmbh/swifty-linux-action@v1.3.0
-        with:
-          release-version: '5.5'
       - name: Checkout
         uses: actions/checkout@v1
       - name: Build
@@ -19,7 +15,7 @@ jobs:
       - name: Test
         run: swift test
       - name: Install Danger
-        run: npm install -g danger
+        run: HOMEBREW_NO_AUTO_UPDATE=1 brew install danger/tap/danger-swift
       - name: Run Danger
         run: swift run danger-swift ci
 
