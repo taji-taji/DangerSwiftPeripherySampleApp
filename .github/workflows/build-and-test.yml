@@ -18,6 +18,8 @@ jobs:
         run: swift build
       - name: Test
         run: swift test
-      - name: Danger
-        uses: danger/swift@3.12.3
+      - name: Install Danger
+        run: npm install -g danger
+      - name: Run Danger
+        uses: swift run danger-swift ci
 
