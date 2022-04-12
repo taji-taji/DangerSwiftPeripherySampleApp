@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
           "branch": "main",
-          "revision": "1664b47df5ce4671ca44920a98ed2349cf4e505b",
+          "revision": "c6bb2b0d69a34f7127d779a69f308e88a989f305",
           "version": null
         }
       },
@@ -44,15 +44,6 @@
           "branch": null,
           "revision": "c1bba33f705ca0fd4a0022997c8b696210083755",
           "version": "3.12.3"
-        }
-      },
-      {
-        "package": "SWXMLHash",
-        "repositoryURL": "https://github.com/drmohundro/SWXMLHash.git",
-        "state": {
-          "branch": null,
-          "revision": "6469881a3f30417c5bb02404ea4b69207f297592",
-          "version": "6.0.0"
         }
       },
       {
