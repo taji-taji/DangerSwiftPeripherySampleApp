@@ -6,12 +6,13 @@
 //
 import Foundation
 
-struct UnusedStruct1 {
-    let unusedProperty: String
+struct UsedStruct1 {
+    let usedProperty: String
 }
 
 struct DummyStruct {
     func usedFunc(unusedArgument: String) {
-
+        let usedStruct1 = UsedStruct1(usedProperty: "1")
+        print(usedStruct1.usedProperty)
     }
 }
