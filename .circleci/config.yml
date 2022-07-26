@@ -28,9 +28,6 @@ jobs:
           name: Install Danger
           command: brew install danger/tap/danger-swift
       - run:
-          name: Install Periphery
-          command: brew install peripheryapp/periphery/periphery
-      - run:
           name: Run Danger
           command: swift run danger-swift ci
 
