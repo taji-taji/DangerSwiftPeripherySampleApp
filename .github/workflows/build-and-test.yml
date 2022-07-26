@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: macos-12
     env:
       GITHUB_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
       HOMEBREW_NO_AUTO_UPDATE: 1
