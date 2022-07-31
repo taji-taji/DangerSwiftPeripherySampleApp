@@ -14,8 +14,8 @@
         "package": "DangerSwiftPeriphery",
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
-          "branch": "use-enum-for-arguments",
-          "revision": "51ebf657fabca148c2036e4c8abce5200bde9e4a",
+          "branch": "logger",
+          "revision": "8159499315a282a076f8351eeb150a1cbb01ee91",
           "version": null
         }
       },
