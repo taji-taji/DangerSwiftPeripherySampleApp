@@ -9,7 +9,7 @@ let result = DangerPeriphery.scan(arguments: {
 switch result {
 case let .success(warnings):
     if let warning = warnings.first {
-        warn(message: warning.message, file: warning.file, line: warning.line)
+        warn(message: warning.message, file: warning.filePath, line: warning.line)
     }
 case let .failure(error):
     fail(error.localizedDescription)
