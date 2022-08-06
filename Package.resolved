@@ -14,8 +14,8 @@
         "package": "DangerSwiftPeriphery",
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
-          "branch": "reduce-dangerdsl-dependencies",
-          "revision": "106567ecc3d4e43adcfa0eb01f3d4fc0f93e3885",
+          "branch": "remove-unused-code",
+          "revision": "6ecbae0dd4fbceec2733729a7759266f02da7c2b",
           "version": null
         }
       },
