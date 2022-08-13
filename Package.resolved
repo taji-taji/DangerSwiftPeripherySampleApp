@@ -14,8 +14,8 @@
         "package": "DangerSwiftPeriphery",
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
-          "branch": "refactor-danger-periphery",
-          "revision": "ce2fbad90ff33c03a4118eaf07f8bba94a23676f",
+          "branch": "fix-ambiguous-interface",
+          "revision": "a188f6f231d3df485eb5f6751f0d7ec06d949e4b",
           "version": null
         }
       },
