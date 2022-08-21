@@ -14,8 +14,8 @@
         "package": "DangerSwiftPeriphery",
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
-          "branch": "refactor-danger-periphery-struct-to-enum",
-          "revision": "aafc0f69c968e2d91116773231cf044c93b7c058",
+          "branch": "support-linux",
+          "revision": "e6696a42653687cbe15319647cbe467ffb1e1499",
           "version": null
         }
       },
@@ -78,8 +78,8 @@
         "repositoryURL": "https://github.com/danger/swift.git",
         "state": {
           "branch": null,
-          "revision": "36fc10dd9d02f09cf61cad6231a3f414d0d997d2",
-          "version": "3.13.0"
+          "revision": "0d62144a8bdfdb087c476ac3e88e96491c158a7b",
+          "version": "3.14.0"
         }
       },
       {
