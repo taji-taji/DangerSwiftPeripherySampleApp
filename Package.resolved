@@ -14,8 +14,8 @@
         "package": "DangerSwiftPeriphery",
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
-          "branch": "update-danger-swift-to-3.14.0",
-          "revision": "1fac348887c0e597550e4b91fb81cb1ea85ca217",
+          "branch": "introduce-danger-swift-test",
+          "revision": "8395897b91102aa90b5152d5564b0a923811f054",
           "version": null
         }
       },
