@@ -14,8 +14,8 @@
         "package": "DangerSwiftPeriphery",
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
-          "branch": "fix-shell-executor-on-linux-test",
-          "revision": "cacb019ac736b84a569a4a8f03cb0a7a747bcb31",
+          "branch": "introduce-swiftlint-test",
+          "revision": "21180c4fdc1c5152a892e20378e6319c555daab5",
           "version": null
         }
       },
