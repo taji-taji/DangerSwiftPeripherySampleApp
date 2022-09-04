@@ -14,8 +14,8 @@
         "package": "DangerSwiftPeriphery",
         "repositoryURL": "https://github.com/taji-taji/DangerSwiftPeriphery.git",
         "state": {
-          "branch": "use-shell-library-test",
-          "revision": "da1988c129c45ad59fcc505f802928439bf2e977",
+          "branch": "dev-tools-test",
+          "revision": "f6fd7ddf58dcf51a90662b83dff3edddc4ac13d5",
           "version": null
         }
       },
@@ -98,15 +98,6 @@
           "branch": null,
           "revision": "ea41d13796dbbc4dc36d97ba5edb20a021aaf4e4",
           "version": "0.1.5"
-        }
-      },
-      {
-        "package": "SwiftShell",
-        "repositoryURL": "https://github.com/taji-taji/swift-shell.git",
-        "state": {
-          "branch": null,
-          "revision": "027bf36be072c802e392570602bd1442e6dd77d0",
-          "version": "1.0.0"
         }
       },
       {
