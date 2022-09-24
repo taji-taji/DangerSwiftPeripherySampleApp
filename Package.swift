@@ -13,7 +13,7 @@ let package = Package(
         // Danger
         .package(url: "https://github.com/danger/swift.git", from: "3.0.0"), // dev
         // Danger Plugins
-        .package(url: "https://github.com/taji-taji/DangerSwiftPeriphery.git", branch: "use-concurrency-branch"), // dev
+        .package(url: "https://github.com/taji-taji/DangerSwiftPeriphery.git", branch: "rename-PeripheryArguments-test"), // dev
     ],
     targets: [
         .target(name: "DangerSwiftPeripherySampleApp"),
