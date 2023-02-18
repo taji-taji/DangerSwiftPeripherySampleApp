@@ -15,7 +15,7 @@ jobs:
       - name: Build
         run: cd danger && swift build
       - name: Test
-        run: swift test
+        run: cd danger && swift test
       - name: Install Danger
         run: brew install danger/tap/danger-swift
       - name: Run Danger
