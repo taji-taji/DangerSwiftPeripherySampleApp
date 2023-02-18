@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Build
-        run: swift build
+        run: cd danger && swift build
       - name: Test
         run: swift test
       - name: Install Danger
