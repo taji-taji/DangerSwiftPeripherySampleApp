@@ -13,11 +13,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Build
-        run: swift build
+        run: cd danger && swift build
       - name: Test
-        run: swift test
+        run: cd danger && swift test
       - name: Install Danger
         run: brew install danger/tap/danger-swift
       - name: Run Danger
-        run: swift run danger-swift ci
+        run: cd danger && swift run danger-swift ci
 

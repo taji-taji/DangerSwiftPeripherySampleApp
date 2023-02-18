@@ -23,13 +23,13 @@ jobs:
       - checkout
       - run:
           name: Test
-          command: swift test
+          command: cd danger && swift test
       - run:
           name: Install Danger
           command: brew install danger/tap/danger-swift
       - run:
           name: Run Danger
-          command: swift run danger-swift ci
+          command: cd danger &&  swift run danger-swift ci
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
