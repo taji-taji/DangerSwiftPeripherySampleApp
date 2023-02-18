@@ -29,7 +29,7 @@ jobs:
           command: brew install danger/tap/danger-swift
       - run:
           name: Run Danger
-          command: swift run danger-swift ci
+          command: cd danger &&  swift run danger-swift ci
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows

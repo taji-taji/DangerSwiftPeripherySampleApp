@@ -19,5 +19,5 @@ jobs:
       - name: Install Danger
         run: brew install danger/tap/danger-swift
       - name: Run Danger
-        run: swift run danger-swift ci
+        run: cd danger && swift run danger-swift ci
 
