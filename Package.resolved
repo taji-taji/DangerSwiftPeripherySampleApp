@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/taji-taji/DangerSwiftPeriphery.git",
       "state" : {
-        "branch" : "update-dependencies-test",
-        "revision" : "691d6242d44f81ed0d73f04327ac457f710778a9"
+        "branch" : "main",
+        "revision" : "6439049a8d0be3a218eb0df7207b9c729043f7b4"
       }
     },
     {
