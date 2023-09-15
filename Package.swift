@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.8
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -14,9 +14,9 @@ let package = Package(
     ],
     dependencies: [
         // Danger
-        .package(url: "https://github.com/danger/swift.git", from: "3.0.0"), // dev
+        .package(url: "https://github.com/danger/swift.git", from: "3.17.0"), // dev
         // Danger Plugins
-        .package(url: "https://github.com/taji-taji/DangerSwiftPeriphery.git", branch: "macos13"), // dev
+        .package(url: "https://github.com/taji-taji/DangerSwiftPeriphery.git", branch: "macos13-test"), // dev
     ],
     targets: [
         .target(name: "DangerSwiftPeripherySampleApp"),

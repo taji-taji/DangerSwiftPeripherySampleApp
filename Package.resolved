@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/taji-taji/DangerSwiftPeriphery.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "6439049a8d0be3a218eb0df7207b9c729043f7b4"
+        "branch" : "macos13-test",
+        "revision" : "f7921c2233fa8b6da3e80e2b04bebe005671a218"
       }
     },
     {
@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/peripheryapp/periphery",
       "state" : {
-        "revision" : "3aee3892928eb4ee1fdf6d5917cc19951df5a0fd",
-        "version" : "2.10.3"
+        "revision" : "5182b803cd852276203ee3e3b5af753acde16d0f",
+        "version" : "2.15.0"
       }
     },
     {
@@ -77,8 +77,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/danger/swift.git",
       "state" : {
-        "revision" : "0a4b52f4518974cbd2cc45c29d33cb54a303f81d",
-        "version" : "3.15.0"
+        "revision" : "d246105c3b08ba9e8bf7d9023df36cbf6ceab0bb",
+        "version" : "3.17.1"
       }
     },
     {
@@ -91,12 +91,21 @@
       }
     },
     {
+      "identity" : "swift-filename-matcher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ileitch/swift-filename-matcher",
+      "state" : {
+        "revision" : "17eaeaf60f2703e3ef826de94149c88a78953fd3",
+        "version" : "0.1.1"
+      }
+    },
+    {
       "identity" : "swift-indexstore",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kateinoigakukun/swift-indexstore",
+      "location" : "https://github.com/ileitch/swift-indexstore",
       "state" : {
-        "revision" : "94261f627b5f82214b676d55809bb814814a3817",
-        "version" : "0.2.0"
+        "revision" : "246d455063ddc8faf3ad791c4488e1f60c59aabd",
+        "version" : "9.0.3"
       }
     },
     {
@@ -113,8 +122,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/peripheryapp/swift-syntax",
       "state" : {
-        "revision" : "a2d31e8880224f5a619f24bf58c122836faf99ff",
-        "version" : "1.0.0"
+        "revision" : "56ef324e094ad1e655ae7d8c8dabadc7e6bd64e9",
+        "version" : "1.0.2"
       }
     },
     {
