@@ -4,8 +4,7 @@ on: pull_request
 
 jobs:
   build:
-#    runs-on: macos-13
-    runs-on: ubuntu-latest
+    runs-on: macos-13
     env:
       GITHUB_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
       HOMEBREW_NO_AUTO_UPDATE: 1
@@ -13,15 +12,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-#      - name: Build
-#        run: swift build
-#      - name: Test
-#        run: swift test
-#      - name: Install Danger
-#        run: brew install danger/tap/danger-swift
+      - name: Build
+        run: swift build
+      - name: Test
+        run: swift test
+      - name: Install Danger
+        run: brew install danger/tap/danger-swift
       - name: Run Danger
-#        run: swift run danger-swift ci
-        uses: docker://ghcr.io/danger/danger-swift:3.18.0
-        with:
-            args: --failOnErrors --no-publish-check
+        run: swift run danger-swift ci
 
