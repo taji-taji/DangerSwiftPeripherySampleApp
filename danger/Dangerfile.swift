@@ -1,4 +1,4 @@
 import Danger
 import DangerSwiftPeriphery
 
-DangerPeriphery.scan()
+DangerPeriphery.scan(verbose: true)
